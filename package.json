@@ -1,0 +1,12 @@
+{
+  "name": "svgmaps-india",
+  "version": "1.0.0",
+  "description": "Interactive SVG maps of Indian states for React",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": ["packages/*"],
+  "homepage": "https://github.com/arav-ind/svgmaps-india#readme",
+  "author": "",
+  "license": "ISC"
+}

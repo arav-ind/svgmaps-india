@@ -12,7 +12,11 @@ export default [
       { file: 'dist/index.mjs', format: 'es', exports: 'default' },
     ],
     plugins: [
-      babel({ exclude: 'node_modules/**', presets: ['@babel/preset-react'] }),
+      babel({ 
+              exclude: 'node_modules/**', 
+              presets: ['@babel/preset-react'], 
+              babelHelpers: 'bundled' 
+            }),
       external(),
       resolve(),
       typescript(),

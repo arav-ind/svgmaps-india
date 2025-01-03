@@ -1,6 +1,6 @@
 import React from 'react'
+import RenderSvg from 'svgmap-core'
 import { MapPropType } from '../types/types'
-import RenderSvg from '../../../core/src/index'
 import { districtCodes, drawPath } from '../constants/tamilnadu'
 
 const Tamilnadu = ({

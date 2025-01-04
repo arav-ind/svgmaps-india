@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
-import Kerala from '../../kerala/src/components/Kerala'
+import KeralaMap, { districtNames } from '../../kerala/src/index'
 
 export const Default = () => {
     const [selectedValue, setSelectedValue] = useState<string | null>(null)
 
     return (
         <div>
-            <h3>{selectedValue || 'None'}</h3>
-            <Kerala
+            <h3>{selectedValue ? `${selectedValue}: ${districtNames[selectedValue]}` : 'None'}</h3>
+            <KeralaMap
                 onClick={(value: string) => setSelectedValue(value)}
                 size="400px"
                 mapColor="white"

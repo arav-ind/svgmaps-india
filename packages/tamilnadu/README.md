@@ -1,6 +1,6 @@
-# Interactive Map of Kerala
+# Interactive Map of Tamilnadu
 
-This package generates an interactive SVG map of Kerala. It allows users to highlight districts on hover and retrieve the value of the selected district.
+This package generates an interactive SVG map of Tamilnadu. It allows users to highlight districts on hover and retrieve the value of the selected district.
 
 ![Preview](./svgmap.gif)
 
@@ -9,7 +9,7 @@ This package generates an interactive SVG map of Kerala. It allows users to high
 Install the package via npm:
 
 ```bash
-pnpm install svgmap-kerala
+pnpm install svgmap-tamilnadu
 ```
 
 ## District List
@@ -19,20 +19,45 @@ The following are the districts mapped with its ID.
 ```js
 
 export const districtNames = {
-    THI: 'Thiruvananthapuram',
-    KOL: 'Kollam',
-    PAT: 'Pathanamthitta',
-    ALA: 'Alappuzha',
-    KOT: 'Kottayam',
-    IDU: 'Idukki',
-    ERN: 'Ernakulam',
-    THR: 'Thrissur',
-    PAL: 'Palakkad',
-    MAL: 'Malappuram',
-    KOZ: 'Kozhikode',
-    WAY: 'Wayanad',
-    KAN: 'Kannur',
-    KAS: 'Kasargod'
+  ARI: 'Ariyalur',
+  CHE: 'Chennai',
+  CHN: 'Chengalpattu',
+  CBE: 'Coimbatore',
+  CUD: 'Cuddalore',
+  DHAM: 'Dharmapuri',
+  DIN: 'Dindigul',
+  ERO: 'Erode',
+  KAN: 'Kanchipuram',
+  KAL: 'Kallakurichi',
+  KKN: 'Kanyakumari',
+  KKL: 'Karaikal',
+  KAR: 'Karur',
+  KRI: 'Krishnagiri',
+  MAD: 'Madurai',
+  MAY: 'Mayiladuthurai',
+  NAG: 'Nagapattinam',
+  NAM: 'Namakkal',
+  NIL: 'Nilgiris',
+  PER: 'Perambalur',
+  PUD: 'Pudukkottai',
+  RAM: 'Ramanathapuram',
+  RAN: 'Ranipet',
+  SAL: 'Salem',
+  SIV: 'Sivagangai',
+  TEN: 'Tenkasi',
+  TAN: 'Tanjavur',
+  THE: 'Theni',
+  THI: 'Thiruvarur',
+  TPR: 'Tiruppur',
+  THO: 'Thoothukudi',
+  TRI: 'Tiruchirappalli',
+  TNE: 'Tirunelveli',
+  TIR: 'Tirupattur',
+  TVL: 'Tiruvallur',
+  TVM: 'Tiruvannamalai',
+  VEL: 'Vellore',
+  VIL: 'Viluppuram',
+  VIR: 'Virudhunagar'
 }
 
 ```
@@ -40,23 +65,28 @@ export const districtNames = {
 ## Usage
 
 ```jsx
+
 'use client'
 
 import React, { useState } from 'react'
-import KeralaMap, { districtNames } from 'svgmap-kerala'
+import TamilnaduMap, { districtNames } from 'svgmap-tamilnadu'
 
 export const Default = () => {
     const [selectedValue, setSelectedValue] = useState<string | null>(null)
 
     return (
         <div>
-            <h3>{selectedValue ? `${selectedValue}: ${districtNames[selectedValue]}` : 'None'}</h3>
-            <KeralaMap
+            <h3 style={{ position: 'absolute' }}>
+                {
+                    selectedValue ? `${selectedValue}: ${districtNames[selectedValue]}` : 'None'
+                }
+            </h3>
+            <TamilnaduMap
                 onClick={(value: string) => setSelectedValue(value)}
-                size="400px"
+                size="600px"
                 mapColor="white"
                 strokeColor="black"
-                strokeWidth="4"
+                strokeWidth="1"
                 hoverColor="rgb(80 80 80)"
             />
         </div>

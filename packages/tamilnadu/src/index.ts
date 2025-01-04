@@ -1,2 +1,3 @@
-import Tamilnadu from './components/Tamilnadu'
-export default Tamilnadu
+import TamilnaduMap from './components/Tamilnadu'
+export { districtNames } from './constants/tamilnadu'
+export default TamilnaduMap

@@ -3,7 +3,7 @@ import RenderSvg from 'svgmap-core'
 import { MapPropType } from '../types/types'
 import { districtCodes, drawPath } from '../constants/kerala'
 
-const Kerala = ({
+const KeralaMap = ({
     className = 'svgmap',
     size,
     mapColor,
@@ -28,4 +28,4 @@ const Kerala = ({
         />
     )
 }
-export default Kerala
+export default KeralaMap

@@ -3,7 +3,7 @@ import RenderSvg from 'svgmap-core'
 import { MapPropType } from '../types/types'
 import { districtCodes, drawPath } from '../constants/tamilnadu'
 
-const Tamilnadu = ({
+const TamilnaduMap = ({
     className = 'svgmap',
     size,
     mapColor,
@@ -24,8 +24,8 @@ const Tamilnadu = ({
             strokeColor={strokeColor}
             strokeWidth={strokeWidth}
             hoverColor={hoverColor}
-            viewBox='150 42 800 793'
+            viewBox='250 0 800 793'
         />
     )
 }
-export default Tamilnadu
+export default TamilnaduMap

@@ -1,6 +1,6 @@
 {
   "name": "svgmap-core",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Core app for rendering SVG Maps in React based on the given drawpath",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

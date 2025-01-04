@@ -57,7 +57,7 @@ export const App = () => {
                 mapColor="white"
                 strokeColor="black"
                 strokeWidth="4"
-                hoverColor="#48d8f5"
+                hoverColor="rgb(80 80 80)"
             />
         </div>
     )

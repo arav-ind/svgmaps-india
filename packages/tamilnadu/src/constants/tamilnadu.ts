@@ -41,7 +41,7 @@ export const drawPath: {[code: string]: string} = {
 }
   
 //DISTRICT CODE
-export const districtCodes = [
+export const districtCodes: string[] = [
     'ARI', 'CHE', 'CHN', 'CBE', 'CUD', 'DHAM', 'DIN', 'ERO', 'KAN', 'KAL', 'KKN', 'KKL', 'KAR', 'KRI',
     'MAD', 'MAY', 'NAG', 'NAM', 'NIL', 'PER', 'PUD', 'RAM', 'RAN', 'SAL', 'SIV', 'TEN', 'TAN', 'THE',
     'THI', 'TPR', 'THO', 'TRI', 'TNE', 'TIR', 'TVL', 'TVM', 'VEL', 'VIL', 'VIR'

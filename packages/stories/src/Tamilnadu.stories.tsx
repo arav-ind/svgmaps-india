@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Tamilnadu from '../../tamilnadu/src/components/Tamilnadu'
 
-export const TamilnaduMap = () => {
+export const Default = () => {
     const [selectedValue, setSelectedValue] = useState<string | null>(null)
 
     return (
@@ -19,4 +19,4 @@ export const TamilnaduMap = () => {
     )
 }
 
-TamilnaduMap.storyName = 'Tamilnadu'
+Default.storyName = 'Tamilnadu'

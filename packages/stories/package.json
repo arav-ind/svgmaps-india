@@ -2,7 +2,7 @@
   "name": "stories",
   "version": "0.0.1",
   "scripts": {
-    "ladle": "ladle dev"
+    "dev": "ladle dev"
   },
   "author": "Aravind D",
   "license": "ISC",

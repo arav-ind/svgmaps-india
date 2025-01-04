@@ -2,7 +2,7 @@
 
 This package generates an interactive SVG map of Kerala. It allows users to highlight districts on hover and retrieve the value of the selected district.
 
-![Preview](./svgmap.gif)
+![Preview](packages/kerala/svgmap.gif)
 
 ## Installation
 

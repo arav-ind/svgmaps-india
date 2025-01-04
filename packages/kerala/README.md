@@ -1,0 +1,83 @@
+# Interactive Map of Kerala
+
+This package generates an interactive SVG map of Kerala. It allows users to highlight districts on hover and retrieve the value of the selected district.
+
+![Preview](./svgmap.gif)
+
+## Installation
+
+Install the package via npm:
+
+```bash
+pnpm install svgmap-kerala
+```
+
+## District List
+
+The following are the districts mapped with its ID.
+
+```js
+
+export const districtNames = {
+    THI: 'Thiruvananthapuram',
+    KOL: 'Kollam',
+    PAT: 'Pathanamthitta',
+    ALA: 'Alappuzha',
+    KOT: 'Kottayam',
+    IDU: 'Idukki',
+    ERN: 'Ernakulam',
+    THR: 'Thrissur',
+    PAL: 'Palakkad',
+    MAL: 'Malappuram',
+    KOZ: 'Kozhikode',
+    WAY: 'Wayanad',
+    KAN: 'Kannur',
+    KAS: 'Kasargod'
+}
+
+```
+
+## Usage
+
+```jsx
+'use client'
+
+import React, { useState } from 'react'
+import Kerala from '../../kerala/src/components/Kerala'
+
+export const App = () => {
+    const [selectedValue, setSelectedValue] = useState<string | null>(null)
+
+    return (
+        <div>
+            <h3>{selectedValue || 'None'}</h3>
+            <Kerala
+                onClick={(value: string) => setSelectedValue(value)}
+                size="400px"
+                mapColor="white"
+                strokeColor="black"
+                strokeWidth="4"
+                hoverColor="#48d8f5"
+            />
+        </div>
+    )
+}
+
+```
+
+## Props Available
+
+| Props       | Description                                             | Requirement | Default Value |
+|-------------|---------------------------------------------------------|-------------|---------------|
+| onClick     | Callback function to get the selected state value.      | Required    | NA            |
+| className   | Custom classname for the map component.                 | Optional    | "svgmap"      |
+| size        | Width of the map.                                       | Optional    | "inherit"     |
+| mapColor    | Color of the map.                                       | Optional    | "#ffffff"     |
+| strokeColor | Border color of each state.                             | Optional    | "#000000"     |
+| strokeWidth | Border width of each state.                             | Optional    | "0.5"         |
+| hoverColor  | Color of the state while hovering on it.                | Optional    | "#303030"     |
+
+
+## Contributing
+
+Pull requests are welcome.

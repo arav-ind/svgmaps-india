@@ -4,6 +4,7 @@ This mono-repo provides SVG maps of Indian states. It is intended to serve as a 
 
 ## Available Packages
 
-1. [Tamilnadu](https://www.npmjs.com/package/svgmap-tamilnadu)
-2. [Kerala](https://www.npmjs.com/package/svgmap-kerala)
+1. [RenderSVG](https://www.npmjs.com/package/svgmap-core)
+2. [Tamilnadu](https://www.npmjs.com/package/svgmap-tamilnadu)
+3. [Kerala](https://www.npmjs.com/package/svgmap-kerala)
 

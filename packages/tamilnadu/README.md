@@ -2,7 +2,7 @@
 
 This package generates an interactive SVG map of Tamilnadu. It allows users to highlight districts on hover and retrieve the value of the selected district.
 
-![Preview](./svgmap.gif)
+![Preview](https://raw.githubusercontent.com/arav-ind/svgmaps-india/refs/heads/master/gifs/tamilnadu.gif)
 
 ## Installation
 

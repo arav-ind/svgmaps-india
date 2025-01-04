@@ -71,7 +71,7 @@ export const districtNames = {
 import React, { useState } from 'react'
 import TamilnaduMap, { districtNames } from 'svgmap-tamilnadu'
 
-export const Default = () => {
+const App = () => {
     const [selectedValue, setSelectedValue] = useState<string | null>(null)
 
     return (
@@ -92,6 +92,8 @@ export const Default = () => {
         </div>
     )
 }
+
+export default App
 
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "svgmap-tamilnadu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Interactive map of Tamilnadu for React",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -16,7 +16,7 @@
     "svgmap",
     "svgmap-tamilnadu",
     "svgmap-india",
-    "react"
+    "react-map-tn"
   ],
   "author": "Aravind D",
   "license": "ISC",

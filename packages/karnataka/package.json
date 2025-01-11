@@ -1,6 +1,6 @@
 {
   "name": "svgmap-karnataka",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Interactive map of Karnataka for React",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -16,7 +16,9 @@
     "svgmap",
     "svgmap-karnataka",
     "svgmap-india",
-    "react-map-tn"
+    "react-map-ka",
+    "karnataka",
+    "karnataka-map"
   ],
   "author": "Aravind D",
   "license": "ISC",

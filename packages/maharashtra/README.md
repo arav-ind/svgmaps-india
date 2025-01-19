@@ -65,7 +65,7 @@ export const districtNames = {
 'use client'
 
 import React, { useState } from 'react'
-import MaharashtraMap, { districtNames } from '../../maharashtra/src/index'
+import MaharashtraMap, { districtNames } from 'svgmap-maharashtra'
 
 const App = () => {
     const [selectedValue, setSelectedValue] = useState<string | null>(null)

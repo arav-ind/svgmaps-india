@@ -7,17 +7,15 @@ export const Default = () => {
     return (
         <div>
             <h3 style={{ position: 'absolute' }}>
-                {
-                    selectedValue ? `${selectedValue}: ${districtNames[selectedValue]}` : 'None'
-                }
+                {selectedValue ? `${selectedValue}: ${districtNames[selectedValue]}` : 'None'}
             </h3>
             <TamilnaduMap
                 onClick={(value: string) => setSelectedValue(value)}
-                size="600px"
-                mapColor="white"
-                strokeColor="black"
-                strokeWidth="1"
-                hoverColor="rgb(80 80 80)"
+                size='600px'
+                mapColor='white'
+                strokeColor='black'
+                strokeWidth='1'
+                hoverColor='rgb(80 80 80)'
             />
         </div>
     )

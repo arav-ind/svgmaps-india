@@ -11,8 +11,7 @@ const TamilnaduMap = ({
     strokeWidth,
     hoverColor,
     onClick,
-}: MapPropType
-) => {
+}: MapPropType) => {
     return (
         <RenderSvg
             districtCodes={districtCodes}

@@ -7,9 +7,7 @@ export const Default = () => {
     return (
         <div>
             <h3 style={{ position: 'absolute' }}>
-                {
-                    selectedValue ? `${selectedValue}: ${districtNames[selectedValue]}` : 'None'
-                }
+                {selectedValue ? `${selectedValue}: ${districtNames[selectedValue]}` : 'None'}
             </h3>
             <MaharashtraMap
                 onClick={(value: string) => setSelectedValue(value)}

@@ -11,8 +11,7 @@ const KeralaMap = ({
     strokeWidth,
     hoverColor,
     onClick,
-}: MapPropType
-) => {
+}: MapPropType) => {
     return (
         <RenderSvg
             districtCodes={districtCodes}
@@ -24,7 +23,7 @@ const KeralaMap = ({
             strokeColor={strokeColor}
             strokeWidth={strokeWidth}
             hoverColor={hoverColor}
-            viewBox="0 0 1900 2486"
+            viewBox='0 0 1900 2486'
         />
     )
 }

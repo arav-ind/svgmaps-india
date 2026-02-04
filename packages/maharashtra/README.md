@@ -17,45 +17,43 @@ pnpm install svgmap-maharashtra
 The following are the districts mapped with its ID.
 
 ```js
-
 export const districtNames = {
-	GAD: 'Gadchiroli',
-	GON: 'Gondia',
-	CHA: 'Chandrapur',
-	BHA: 'Bhandara',
-	NAG: 'Nagpur',
-	WAR: 'Wardha',
-	YAV: 'Yavatmal',
-	AMA: 'Amaravati',
-	AKO: 'Akola',
-	WAS: 'Washim',
-	NAN: 'Nanded',
-	HIN: 'Hingoli',
-	PAR: 'Parbhani',
-	BUL: 'Buldhana',
-	JAL: 'Jalgaon',
-	DHU: 'Dhule',
-	NDB: 'Nandurbar',
-	NAS: 'Nashik',
-	AHM: 'Ahmadnagar',
-	JLN: 'Jalna',
-	AUR: 'Aurangabad',
-	LAT: 'Latur',
-	USM: 'Usmanabad',
-	BEE: 'Beed',
-	SOL: 'Solapur',
-	SAN: 'Sangli',
-	KOL: 'Kolhapur',
-	SAT: 'Satara',
-	PUN: 'Pune',
-	PAL: 'Palaghar',
-	THA: 'Thane',
-	MUM: 'Mumbai',
-	RAI: 'Raigad',
-	RAT: 'Ratnagiri',
-	SIN: 'Sindhudurg',
+    GAD: 'Gadchiroli',
+    GON: 'Gondia',
+    CHA: 'Chandrapur',
+    BHA: 'Bhandara',
+    NAG: 'Nagpur',
+    WAR: 'Wardha',
+    YAV: 'Yavatmal',
+    AMA: 'Amaravati',
+    AKO: 'Akola',
+    WAS: 'Washim',
+    NAN: 'Nanded',
+    HIN: 'Hingoli',
+    PAR: 'Parbhani',
+    BUL: 'Buldhana',
+    JAL: 'Jalgaon',
+    DHU: 'Dhule',
+    NDB: 'Nandurbar',
+    NAS: 'Nashik',
+    AHM: 'Ahmadnagar',
+    JLN: 'Jalna',
+    AUR: 'Aurangabad',
+    LAT: 'Latur',
+    USM: 'Usmanabad',
+    BEE: 'Beed',
+    SOL: 'Solapur',
+    SAN: 'Sangli',
+    KOL: 'Kolhapur',
+    SAT: 'Satara',
+    PUN: 'Pune',
+    PAL: 'Palaghar',
+    THA: 'Thane',
+    MUM: 'Mumbai',
+    RAI: 'Raigad',
+    RAT: 'Ratnagiri',
+    SIN: 'Sindhudurg',
 }
-
 ```
 
 ## Usage
@@ -95,16 +93,15 @@ export default App
 
 ## Props Available
 
-| Props       | Description                                             | Requirement | Default Value |
-|-------------|---------------------------------------------------------|-------------|---------------|
-| onClick     | Callback function to get the selected state value.      | Required    | NA            |
-| className   | Custom classname for the map component.                 | Optional    | "svgmap"      |
-| size        | Width of the map.                                       | Optional    | "inherit"     |
-| mapColor    | Color of the map.                                       | Optional    | "#ffffff"     |
-| strokeColor | Border color of each state.                             | Optional    | "#000000"     |
-| strokeWidth | Border width of each state.                             | Optional    | "0.5"         |
-| hoverColor  | Color of the state while hovering on it.                | Optional    | "#303030"     |
-
+| Props       | Description                                        | Requirement | Default Value |
+| ----------- | -------------------------------------------------- | ----------- | ------------- |
+| onClick     | Callback function to get the selected state value. | Required    | NA            |
+| className   | Custom classname for the map component.            | Optional    | "svgmap"      |
+| size        | Width of the map.                                  | Optional    | "inherit"     |
+| mapColor    | Color of the map.                                  | Optional    | "#ffffff"     |
+| strokeColor | Border color of each state.                        | Optional    | "#000000"     |
+| strokeWidth | Border width of each state.                        | Optional    | "0.5"         |
+| hoverColor  | Color of the state while hovering on it.           | Optional    | "#303030"     |
 
 ## Contributing
 

@@ -11,8 +11,7 @@ const GujaratMap = ({
     strokeWidth,
     hoverColor,
     onClick,
-}: MapPropType
-) => {
+}: MapPropType) => {
     return (
         <RenderSvg
             districtCodes={districtCodes}
@@ -24,7 +23,7 @@ const GujaratMap = ({
             strokeColor={strokeColor}
             strokeWidth={strokeWidth}
             hoverColor={hoverColor}
-            viewBox="0 0 1000 719.61"
+            viewBox='0 0 1000 719.61'
         />
     )
 }

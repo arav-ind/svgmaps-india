@@ -13,8 +13,7 @@ const RenderSvg = ({
     strokeWidth,
     hoverColor,
     onClick,
-}: MapPropType
-) => {
+}: MapPropType) => {
     const mapStyle = {
         width: size || constants.WIDTH,
         fill: mapColor || constants.MAPCOLOR,
@@ -38,13 +37,7 @@ const RenderSvg = ({
 
     return (
         <div className={className} style={mapStyle}>
-            <svg
-                version='1.1'
-                id='svg2'
-                x='0px'
-                y='0px'
-                viewBox={viewBox}
-            >
+            <svg version='1.1' id='svg2' x='0px' y='0px' viewBox={viewBox}>
                 {districtCodes.map((districtCode: string) => (
                     <path
                         key={districtCode}

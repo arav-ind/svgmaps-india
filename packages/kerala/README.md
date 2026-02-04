@@ -17,7 +17,6 @@ pnpm install svgmap-kerala
 The following are the districts mapped with its ID.
 
 ```js
-
 export const districtNames = {
     THI: 'Thiruvananthapuram',
     KOL: 'Kollam',
@@ -32,9 +31,8 @@ export const districtNames = {
     KOZ: 'Kozhikode',
     WAY: 'Wayanad',
     KAN: 'Kannur',
-    KAS: 'Kasargod'
+    KAS: 'Kasargod',
 }
-
 ```
 
 ## Usage
@@ -69,16 +67,15 @@ export default App
 
 ## Props Available
 
-| Props       | Description                                             | Requirement | Default Value |
-|-------------|---------------------------------------------------------|-------------|---------------|
-| onClick     | Callback function to get the selected state value.      | Required    | NA            |
-| className   | Custom classname for the map component.                 | Optional    | "svgmap"      |
-| size        | Width of the map.                                       | Optional    | "inherit"     |
-| mapColor    | Color of the map.                                       | Optional    | "#ffffff"     |
-| strokeColor | Border color of each state.                             | Optional    | "#000000"     |
-| strokeWidth | Border width of each state.                             | Optional    | "0.5"         |
-| hoverColor  | Color of the state while hovering on it.                | Optional    | "#303030"     |
-
+| Props       | Description                                        | Requirement | Default Value |
+| ----------- | -------------------------------------------------- | ----------- | ------------- |
+| onClick     | Callback function to get the selected state value. | Required    | NA            |
+| className   | Custom classname for the map component.            | Optional    | "svgmap"      |
+| size        | Width of the map.                                  | Optional    | "inherit"     |
+| mapColor    | Color of the map.                                  | Optional    | "#ffffff"     |
+| strokeColor | Border color of each state.                        | Optional    | "#000000"     |
+| strokeWidth | Border width of each state.                        | Optional    | "0.5"         |
+| hoverColor  | Color of the state while hovering on it.           | Optional    | "#303030"     |
 
 ## Contributing
 

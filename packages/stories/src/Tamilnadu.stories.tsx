@@ -11,7 +11,7 @@ export const Default = () => {
             </h3>
             <TamilnaduMap
                 onClick={(value: string) => setSelectedValue(value)}
-                size='600px'
+                size='400px'
                 mapColor='white'
                 strokeColor='black'
                 strokeWidth='1'

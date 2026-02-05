@@ -23,7 +23,7 @@ const TamilnaduMap = ({
             strokeColor={strokeColor}
             strokeWidth={strokeWidth}
             hoverColor={hoverColor}
-            viewBox='250 0 800 793'
+            viewBox='7623.34 -1356.27 411.3 548.63'
         />
     )
 }

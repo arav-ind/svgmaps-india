@@ -1,6 +1,6 @@
 # SVGMaps India (All States)
 
-This package re-exports all state map components as named exports so you can import any state from a single package.
+This package re-exports all state map components and their `districtNames` as named exports so you can import any state from a single package.
 
 ## Installation
 
@@ -14,16 +14,19 @@ pnpm install svgmap-india
 'use client'
 
 import React, { useState } from 'react'
-import { TamilnaduMap, KeralaMap } from 'svgmap-india'
+import { TamilnaduMap, TamilnaduDistrictNames } from 'svgmap-india'
 
 const App = () => {
     const [selectedValue, setSelectedValue] = useState<string | null>(null)
 
     return (
         <div>
-            <h3>{selectedValue ?? 'None'}</h3>
+            <h3>
+                {selectedValue
+                    ? `${selectedValue}: ${TamilnaduDistrictNames[selectedValue]}`
+                    : 'None'}
+            </h3>
             <TamilnaduMap onClick={(value: string) => setSelectedValue(value)} />
-            <KeralaMap onClick={(value: string) => setSelectedValue(value)} />
         </div>
     )
 }

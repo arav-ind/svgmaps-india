@@ -1,6 +1,6 @@
 {
     "name": "svgmap-maharashtra",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Interactive map of Maharashtra for React",
     "main": "dist/index.js",
     "module": "dist/index.mjs",

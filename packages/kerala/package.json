@@ -1,6 +1,6 @@
 {
     "name": "svgmap-kerala",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Interactive map of Kerala for React",
     "main": "dist/index.js",
     "module": "dist/index.mjs",

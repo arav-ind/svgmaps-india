@@ -1,6 +1,6 @@
 {
     "name": "svgmap-goa",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Interactive map of Goa for React",
     "main": "dist/index.js",
     "module": "dist/index.mjs",

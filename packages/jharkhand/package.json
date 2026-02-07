@@ -1,6 +1,6 @@
 {
     "name": "svgmap-jharkhand",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Interactive map of Jharkhand for React",
     "main": "dist/index.js",
     "module": "dist/index.mjs",

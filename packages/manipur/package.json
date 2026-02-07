@@ -1,6 +1,6 @@
 {
     "name": "svgmap-manipur",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Interactive map of Manipur for React",
     "main": "dist/index.js",
     "module": "dist/index.mjs",

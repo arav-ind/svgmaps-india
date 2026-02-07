@@ -500,6 +500,136 @@ importers:
         specifier: ^5.3.3
         version: 5.7.2
 
+  packages/india:
+    dependencies:
+      react:
+        specifier: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+        version: 19.0.0
+      react-dom:
+        specifier: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+        version: 19.0.0(react@19.0.0)
+      svgmap-andhrapradesh:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-arunachalpradesh:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-assam:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-bihar:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-chhattisgarh:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-goa:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-gujarat:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-haryana:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-himachalpradesh:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-jharkhand:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-karnataka:
+        specifier: ^0.0.3
+        version: 0.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-kashmir:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-kerala:
+        specifier: ^0.0.5
+        version: 0.0.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-ladakh:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-madhyapradesh:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-maharashtra:
+        specifier: ^0.0.3
+        version: 0.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-manipur:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-meghalaya:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-mizoram:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-nagaland:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-odisha:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-punjab:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-rajasthan:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-sikkim:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-tamilnadu:
+        specifier: ^0.0.6
+        version: 0.0.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-telangana:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-tripura:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-uttarakhand:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-uttarpradesh:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      svgmap-westbengal:
+        specifier: ^0.0.2
+        version: 0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+    devDependencies:
+      '@babel/preset-react':
+        specifier: ^7.18.6
+        version: 7.26.3(@babel/core@7.26.0)
+      '@rollup/plugin-babel':
+        specifier: ^6.0.4
+        version: 6.0.4(@babel/core@7.26.0)(@types/babel__core@7.20.5)(rollup@2.79.2)
+      '@rollup/plugin-node-resolve':
+        specifier: ^13.3.0
+        version: 13.3.0(rollup@2.79.2)
+      '@rollup/plugin-terser':
+        specifier: ^0.4.4
+        version: 0.4.4(rollup@2.79.2)
+      '@types/react':
+        specifier: ^18.2.58
+        version: 18.3.18
+      rollup:
+        specifier: ^2.77.0
+        version: 2.79.2
+      rollup-plugin-peer-deps-external:
+        specifier: ^2.2.4
+        version: 2.2.4(rollup@2.79.2)
+      rollup-plugin-typescript2:
+        specifier: ^0.36.0
+        version: 0.36.0(rollup@2.79.2)(typescript@5.7.2)
+      tslib:
+        specifier: ^2.6.2
+        version: 2.8.1
+      typescript:
+        specifier: ^5.3.3
+        version: 5.7.2
+
   packages/jharkhand:
     dependencies:
       react:
@@ -3932,8 +4062,188 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
+  svgmap-andhrapradesh@0.0.2:
+    resolution: {integrity: sha512-BakD9HQXmTuWV5IabIXpuBb5uEjTshom9+Y/oSDoybM7Ph2vKMV7G40y76Yruc2AVNPmIFMNAJ+MuizXY2FODA==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-arunachalpradesh@0.0.2:
+    resolution: {integrity: sha512-hOGO4P9A1/aGrpg3zcqgcRpmf2xC/x10hO8PNKI0HBq3Hq9EawImS9EmOH3kZSDO1H0S4QGyOHB+5JYQB69big==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-assam@0.0.2:
+    resolution: {integrity: sha512-MS30Oon8VbUPPJFF8oy44oGFKEA8GDmfLsmEyjfwZsqmO/YEyJYgCObEPao/R8T04n2clN5VWW4Ul+jPcC9Igg==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-bihar@0.0.2:
+    resolution: {integrity: sha512-Bkh2qdIEGxG1Weghmpevyff190LPIG4VmA7LTvuBnEOkcFpkkNwVtcGV3VBjIcCZtzoMZZYjv6pk/vPAVUt+jQ==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-chhattisgarh@0.0.2:
+    resolution: {integrity: sha512-xVja0ka8kvRcOwSVN5vHSq2vm5ya72eDXwuthbE04LtU6C2bKvgRO64LlkWezsa5TMgaloYIw3ZUWTL5S/fakw==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
   svgmap-core@0.0.1:
     resolution: {integrity: sha512-X5aeAADNKcwJWQ2yrbyL1vXjGVNEEUSGHRwDXpNrY2j3gnBgLCcENHUkzOswlYzTcvhIAnL8/6X2f2QiZqqhQQ==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-goa@0.0.2:
+    resolution: {integrity: sha512-7jcFkFGhaixHnA4AjBxKfOnZQm9/AVrvtNc8DDuJR3q9QDOFfYV52E35w5aCtdc+SHdZxVhtmy8geOsHP/plpg==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-gujarat@0.0.2:
+    resolution: {integrity: sha512-uf8wdEGCuQ/tjEcEedrV/6CrOsZd3qOpdbAaLXVTZpRhHHbFLSrcdwDO73eG/uP5V7uoRvnGkb2a8I/hd6Ve2Q==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-haryana@0.0.2:
+    resolution: {integrity: sha512-JG18mj9YAHW5KMDcOhnb6krCgqBrirCm+sNerjKHWLV444axHGBrme7ENoZzejf4j0AEhvDqMnt8uNdGw2ZuSA==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-himachalpradesh@0.0.2:
+    resolution: {integrity: sha512-l5OTgFfE2H/DvSoM2dKwiVaH2bsHrDxnzggXJ+1aHa8x4QDQdznXonog/xg+OKPBUGI7Va5Aq/0RoJlMJ2iSWw==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-jharkhand@0.0.2:
+    resolution: {integrity: sha512-1F5lEm2ilPiaZJ/GWfoZAYuWdTYfNRaj41iUv+8gd89i99HIrImil4/SUM8i9bRSdupN4ukn7wLaBr7eLbA5xA==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-karnataka@0.0.3:
+    resolution: {integrity: sha512-I+bTz4l8FfviOdgc3KqRIB2RQODb94JpyGrW8wxw4chxTERFWMJrBuD7YtfLzuYCYuEeMBNBAvCg9MyqEHTPxA==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-kashmir@0.0.2:
+    resolution: {integrity: sha512-X3viabN6QRtR5Xn77ZzUiqh8zoYnPk7Zo2xS2i/+hykoAhGAjn2WGdnuUd9h4zpsY/CwrAz9PcOMj1x+My7aLg==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-kerala@0.0.5:
+    resolution: {integrity: sha512-XYC44tiNxKqreKdlkYFteOPjvdqHMkpuAftUfvZxR1GfRaUIBpaTpmh9RoczvjaMSBzverYxJRRbMN9j/8QRsQ==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-ladakh@0.0.2:
+    resolution: {integrity: sha512-I6lhR9BMKHDSG8mMjCoEBW62hDEOIhbXz5nB694VTG+2fenJCijGWfD1kT1dnoQo9/xbemxuijB7XWt2R8qX0w==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-madhyapradesh@0.0.2:
+    resolution: {integrity: sha512-vTJR3jVTJOjYo9SR5FByAffXjyi3I4URXR77oT4J5czpWW+Krd6qbtffDlXQXP0qWqMb0SwhNfDhO5r8ijOdUg==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-maharashtra@0.0.3:
+    resolution: {integrity: sha512-KUzf4f7PF7q/GDtyfdb090HyaNEnbyNzSKhRGoVgFT3vlLbOKbMQ1e+KCqlp6YsxpSjRU3j8bSMqcer0DNkKlw==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-manipur@0.0.2:
+    resolution: {integrity: sha512-e4H7cSA5Ou1em/JwWUamj0pjYZRygwP0nHX9qlhmIaZaIOkpZDreEopV2aif3VAyVRbjUuGbcH7QHdbezNJyeA==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-meghalaya@0.0.2:
+    resolution: {integrity: sha512-WNJu5WFZsA9Z0SyHUChdD7WQrfFBU3iJB1M+cfc0gEYZogogtwMTqCWhdEdj+ejN5KrV91LQSyeMmNc96fBwEg==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-mizoram@0.0.2:
+    resolution: {integrity: sha512-xN1M1VMA/e9IzG0XhiLwG1mr8oY33Sx6UMGYz9QuyPA/Rl4GWXLawuZ43NNwuZzLfAu73msHqgztvIMfAOxumw==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-nagaland@0.0.2:
+    resolution: {integrity: sha512-2PHx8iExgzv1wRwbOjRusDR081sY7UiYnSHSkwuNPfC7BAUsznMVUY+Avzb0iwlxlPgegnnKtPd1/ZKLNahDqQ==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-odisha@0.0.2:
+    resolution: {integrity: sha512-MpVrjac6CklWfEHNug5ogBkiEKtKH720zmpXPrP4Xw2I+dyCxysF/wSeJ4043Pz/6/JpzJXEVXxunUHwRr/S8Q==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-punjab@0.0.2:
+    resolution: {integrity: sha512-cfShRL4glLsKyfqlzky7seil41fvtz5vNq0EEFfSC+nejhGdZ154JnRK9YJe1LZHag7chLV659G3MISmVNswEQ==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-rajasthan@0.0.2:
+    resolution: {integrity: sha512-qxJNsdVOixePzGY6QV/S3ODZHZzUvUb6yY5go3NjKpy36WAc9cEdVyTCnTny95sN4oMCMbzK2LIgbwQobyikpA==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-sikkim@0.0.2:
+    resolution: {integrity: sha512-FpbcpO2sL+zswGyS++Bb6hneaujGhIw3BTfJgF2Z9o8Cv5c00WMSJ8FrqhIASvItY+FC20Thu8wL9TceqSfvzw==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-tamilnadu@0.0.6:
+    resolution: {integrity: sha512-iSCytO6S2mTgyLA3D7VkebUHQxvR3vkjn2Mh/iH0fczGfMkVbb6Py/CI+41AL3ORLKj/0veCgZs/6O6cnnxS4g==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-telangana@0.0.2:
+    resolution: {integrity: sha512-QHf24eQ7hhjV4m4PxxVrldto/PtOI+diEMJrg+ZGjshJIIbHx2Yf5vpehF94MJJCE2TadWKlhQzteqQWIcEeww==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-tripura@0.0.2:
+    resolution: {integrity: sha512-eFEMfxjc5CWhlIwuvpnc0/PBDk5wCbyxHKizqofBpOF020MqyjTqdi8wDzse6kbIn2bJjDc9mSb3h5Zf4+3ZSA==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-uttarakhand@0.0.2:
+    resolution: {integrity: sha512-SF3RWOhPjJ2jEQKWld1XdOAKs0NmIe5P1SHsnutde2mEkzceNcdV0wDINt98PabWRHg8ayU0XgRIb2BwDjYiBA==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-uttarpradesh@0.0.2:
+    resolution: {integrity: sha512-zm8P9Xe6U9TW8Z0RdsOriPm5zpTX4BYlsQmbVBQ56GwM8vTjScIxQdNT4BybH5nEMtiq7dXC4VbQRZIX6lSTQw==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  svgmap-westbengal@0.0.2:
+    resolution: {integrity: sha512-FD6kiI6OZGpH9N6Oa7w8UEXOj9JzbplqYbiQPxr/f3ne2ZyzA8SkRW1EOn1kbvkGwWJ1sbXO/Z5eMos4jEsZfw==}
     peerDependencies:
       react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -7423,10 +7733,190 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
+  svgmap-andhrapradesh@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-arunachalpradesh@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-assam@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-bihar@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-chhattisgarh@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
   svgmap-core@0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
+
+  svgmap-goa@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-gujarat@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-haryana@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-himachalpradesh@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-jharkhand@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-karnataka@0.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-kashmir@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-kerala@0.0.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-ladakh@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-madhyapradesh@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-maharashtra@0.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-manipur@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-meghalaya@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-mizoram@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-nagaland@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-odisha@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-punjab@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-rajasthan@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-sikkim@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-tamilnadu@0.0.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-telangana@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-tripura@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-uttarakhand@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-uttarpradesh@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+
+  svgmap-westbengal@0.0.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svgmap-core: 0.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
 
   terser@5.37.0:
     dependencies:

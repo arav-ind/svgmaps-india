@@ -1,0 +1,76 @@
+{
+    "name": "svgmap-india",
+    "version": "0.0.1",
+    "description": "All SVG maps of Indian states for React",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "sideEffects": false,
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arav-ind/svgmaps-india.git"
+    },
+    "keywords": [
+        "svgmap",
+        "svgmap-india",
+        "india-map",
+        "react-svgmap"
+    ],
+    "author": "Aravind D",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/arav-ind/svgmaps-india/issues"
+    },
+    "homepage": "https://github.com/arav-ind/svgmaps-india#readme",
+    "peerDependencies": {
+        "react": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+        "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.18.6",
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-node-resolve": "^13.3.0",
+        "@rollup/plugin-terser": "^0.4.4",
+        "@types/react": "^18.2.58",
+        "rollup": "^2.77.0",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-typescript2": "^0.36.0",
+        "tslib": "^2.6.2",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "svgmap-andhrapradesh": "^0.0.2",
+        "svgmap-arunachalpradesh": "^0.0.2",
+        "svgmap-assam": "^0.0.2",
+        "svgmap-bihar": "^0.0.2",
+        "svgmap-chhattisgarh": "^0.0.2",
+        "svgmap-goa": "^0.0.2",
+        "svgmap-gujarat": "^0.0.2",
+        "svgmap-haryana": "^0.0.2",
+        "svgmap-himachalpradesh": "^0.0.2",
+        "svgmap-jharkhand": "^0.0.2",
+        "svgmap-karnataka": "^0.0.3",
+        "svgmap-kashmir": "^0.0.2",
+        "svgmap-kerala": "^0.0.5",
+        "svgmap-ladakh": "^0.0.2",
+        "svgmap-madhyapradesh": "^0.0.2",
+        "svgmap-maharashtra": "^0.0.3",
+        "svgmap-manipur": "^0.0.2",
+        "svgmap-meghalaya": "^0.0.2",
+        "svgmap-mizoram": "^0.0.2",
+        "svgmap-nagaland": "^0.0.2",
+        "svgmap-odisha": "^0.0.2",
+        "svgmap-punjab": "^0.0.2",
+        "svgmap-rajasthan": "^0.0.2",
+        "svgmap-sikkim": "^0.0.2",
+        "svgmap-tamilnadu": "^0.0.6",
+        "svgmap-telangana": "^0.0.2",
+        "svgmap-tripura": "^0.0.2",
+        "svgmap-uttarakhand": "^0.0.2",
+        "svgmap-uttarpradesh": "^0.0.2",
+        "svgmap-westbengal": "^0.0.2"
+    }
+}

@@ -7,7 +7,9 @@
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
         "format": "prettier . --write",
-        "format:check": "prettier . --check"
+        "format:check": "prettier . --check",
+        "update-version": "node scripts/update-version.js",
+        "build-all": "node scripts/build-all.js"
     },
     "workspaces": [
         "packages/*"

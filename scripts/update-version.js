@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable @typescript-eslint/no-var-requires */
 
 const { readFileSync, writeFileSync, readdirSync, existsSync } = require('node:fs')
 const { resolve, join } = require('node:path')

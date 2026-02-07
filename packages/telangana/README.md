@@ -1,0 +1,101 @@
+# Interactive Map of Telangana
+
+This package generates an interactive SVG map of Telangana. It allows users to highlight districts on hover and retrieve the value of the selected district.
+
+![Preview](https://raw.githubusercontent.com/arav-ind/svgmaps-india/refs/heads/master/gifs/telangana.gif)
+
+## Installation
+
+Install the package via npm:
+
+```bash
+pnpm install svgmap-telangana
+```
+
+## District List
+
+The following are the districts mapped with its ID.
+
+```js
+export const districtNames = {
+    ADI: 'Adilabad',
+    HYD: 'Hyderabad',
+    JAG: 'Jagtial',
+    JAN: 'Jangaon',
+    MUL: 'Mulugu',
+    JGO: 'Jogulamba Gadwal',
+    KAM: 'Kamareddy',
+    KAR: 'Karimnagar',
+    KHA: 'Khammam',
+    KBO: 'Komaram Bheem',
+    MAH: 'Mahabubabad',
+    MA2: 'Mahabubnagar',
+    MAN: 'Mancherial',
+    MED: 'Medak',
+    MME: 'Medchal Malkajgiri',
+    NAG: 'Nagarkurnool',
+    NAL: 'Nalgonda',
+    NIR: 'Nirmal',
+    NIZ: 'Nizamabad',
+    PED: 'Peddapalli',
+    RSA: 'Rajanna Sircilla',
+    RRA: 'Ranga Reddy',
+    SAN: 'Sangareddy',
+    SID: 'Siddipet',
+    SUR: 'Suryapet',
+    VIK: 'Vikarabad',
+    WAN: 'Wanaparthy',
+    WRA: 'Warangal Rural',
+    WUA: 'Warangal Urban',
+    YBA: 'Yadadri Bhuvanagiri',
+    BKH: 'Bhadradri Kothagudem',
+    JBA: 'Jayashankar Bhupalapally',
+    NAR: 'Narayanpet',
+}
+```
+
+## Usage
+
+```jsx
+'use client'
+
+import React, { useState } from 'react'
+import TelanganaMap, { districtNames } from 'svgmap-telangana'
+
+const App = () => {
+    const [selectedValue, setSelectedValue] = useState<string | null>(null)
+
+    return (
+        <div>
+            <h3>{selectedValue ? `${selectedValue}: ${districtNames[selectedValue]}` : 'None'}</h3>
+            <TelanganaMap
+                onClick={(value: string) => setSelectedValue(value)}
+                size="400px"
+                mapColor="white"
+                strokeColor="black"
+                strokeWidth="1"
+                hoverColor="rgb(80 80 80)"
+            />
+        </div>
+    )
+}
+
+export default App
+
+```
+
+## Props Available
+
+| Props       | Description                                        | Requirement | Default Value |
+| ----------- | -------------------------------------------------- | ----------- | ------------- |
+| onClick     | Callback function to get the selected state value. | Required    | NA            |
+| className   | Custom classname for the map component.            | Optional    | "svgmap"      |
+| size        | Width of the map.                                  | Optional    | "inherit"     |
+| mapColor    | Color of the map.                                  | Optional    | "#ffffff"     |
+| strokeColor | Border color of each state.                        | Optional    | "#000000"     |
+| strokeWidth | Border width of each state.                        | Optional    | "0.5"         |
+| hoverColor  | Color of the state while hovering on it.           | Optional    | "#303030"     |
+
+## Contributing
+
+Pull requests are welcome.

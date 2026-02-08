@@ -213,6 +213,12 @@ select {
     font-size: 13px;
 }
 
+.map-actions {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .badge {
     background: transparent;
     color: var(--muted);
@@ -220,6 +226,31 @@ select {
     padding: 0;
     border-radius: 0;
     font-size: 12px;
+}
+
+.icon-button {
+    border: 1px solid var(--border);
+    background: var(--panel);
+    color: var(--ink);
+    border-radius: 999px;
+    width: 32px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.icon-button:hover {
+    transform: translateY(-1px);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.icon-button svg {
+    width: 16px;
+    height: 16px;
 }
 
 .map-wrap {

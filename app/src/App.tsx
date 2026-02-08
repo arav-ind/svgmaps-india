@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import Header from './components/Header'
 import MapControls from './components/MapControls'
 import MapView from './components/MapView'
@@ -13,6 +13,7 @@ const App = () => {
     const [strokeWidth, setStrokeWidth] = useState(DARK_DEFAULTS.strokeWidth)
     const [hoverColor, setHoverColor] = useState(DARK_DEFAULTS.hoverColor)
     const [clicked, setClicked] = useState<string | null>(null)
+    const [copied, setCopied] = useState(false)
 
     const current = useMemo(() => MAPS.find((map) => map.id === selectedId)!, [selectedId])
     const label = clicked ? `${clicked}: ${current.districtNames[clicked] ?? 'Unknown'}` : 'None'
@@ -26,10 +27,53 @@ const App = () => {
         setHoverColor(defaults.hoverColor)
     }, [darkMode])
 
+    const prevConfig = useRef({
+        selectedId,
+        size,
+        mapColor,
+        strokeColor,
+        strokeWidth,
+        hoverColor,
+    })
+
+    useEffect(() => {
+        const previous = prevConfig.current
+        const changed =
+            previous.selectedId !== selectedId ||
+            previous.size !== size ||
+            previous.mapColor !== mapColor ||
+            previous.strokeColor !== strokeColor ||
+            previous.strokeWidth !== strokeWidth ||
+            previous.hoverColor !== hoverColor
+
+        if (copied && changed) {
+            setCopied(false)
+        }
+
+        prevConfig.current = {
+            selectedId,
+            size,
+            mapColor,
+            strokeColor,
+            strokeWidth,
+            hoverColor,
+        }
+    }, [copied, selectedId, size, mapColor, strokeColor, strokeWidth, hoverColor])
+
+    const snippet = `<${current.componentName}\n  size="${size}"\n  mapColor="${mapColor}"\n  strokeColor="${strokeColor}"\n  strokeWidth="${strokeWidth}"\n  hoverColor="${hoverColor}"\n/>`
+
+    const handleCopy = async () => {
+        try {
+            await navigator.clipboard.writeText(snippet)
+            setCopied(true)
+        } catch {
+            setCopied(false)
+        }
+    }
+
     return (
         <div className={darkMode ? 'theme-dark' : 'theme-light'}>
             <Header darkMode={darkMode} onToggleTheme={() => setDarkMode((prev) => !prev)} />
-
             <main className='main'>
                 <MapControls
                     maps={MAPS}
@@ -53,6 +97,9 @@ const App = () => {
                 <MapView
                     current={current}
                     label={label}
+                    copyLabel={copied ? 'Copied!' : 'Copy component snippet'}
+                    onCopy={handleCopy}
+                    copied={copied}
                     onDistrictClick={setClicked}
                     mapProps={{
                         size,

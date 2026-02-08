@@ -97,7 +97,7 @@ const App = () => {
                 <MapView
                     current={current}
                     label={label}
-                    copyLabel={copied ? 'Copied!' : 'Copy component snippet'}
+                    copyLabel={copied ? 'Copied!' : 'Copy'}
                     onCopy={handleCopy}
                     copied={copied}
                     onDistrictClick={setClicked}
